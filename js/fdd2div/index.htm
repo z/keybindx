@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script src="js/jquery.js" type="text/javascript"></script> 
+<script src="js/jquery-fdd2div.js" type="text/javascript"></script> 
+<title>jQuery Plugin > fdd2div by Mukuru.com</title>
+</head>
+<style>
+.fdd2div_default{
+	position:relative;
+	color:#0066FF;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;	
+	font-size:12px;
+	text-align:left;
+	width:120px;
+	background:#EBEBEB;
+}
+
+.fdd2div_default_main_link{
+	color:#0066FF;
+	outline:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:5px;
+}
+.fdd2div_default ul li a{
+	color:#0066FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:5px;
+}
+.fdd2div_default ul li a:hover{
+	color:#00CCFF;
+}
+.fdd2div_default ul li a:visited{
+	color:#00CCFF;
+}
+
+.fdd2div_default a.collapsed{
+	background:url('images/collapse.jpg') no-repeat right center;
+	padding-right:16px;
+	color:#0033FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.fdd2div_default a.expanded{
+	background:url('images/expand.jpg') no-repeat right center;
+	padding-right:16px;
+	color:#0099FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.fdd2div_default_ul_list{
+	list-style:none;
+	width:100%;
+	padding:0 0 15px 0;
+	margin:0px;
+	background:#F7F7F7;
+	top:15px;
+}
+
+.fdd2div_default_ul_list li {
+	margin:2px;
+}
+
+.fdd2div_default_ul_list li a{
+	height:5px;
+	width: 100%;
+	display:block;
+}
+
+.fdd2div_default_ul_list li a:hover{
+	color:#0066FF;
+}
+</style>
+  <body>
+  <strong>Example 1:</strong> Form method is get and action is country_details.php. Coverting the form div into div menu with default options.
+  <br />
+		  <form method="get" action="country_details.php">
+      	<select name="country">
+        	<option value="0">Select Country</option>
+          <option value="1">Argentina </option>
+          <option value="2">South Africa</option>          
+          <option value="3">United Kingdom</option>
+          <option value="4">Zimbabwe</option>
+          </select>
+				<input type="submit" value="GO"/>
+			</form>
+       INTO 
+      <div id="form_wrapper">
+			<form method="get" action="country_details.php">
+      	<select name="country">
+        	<option value="0">Select Country</option>
+          <option value="1">Argentina </option>
+          <option value="2">South Africa</option>          
+          <option value="3">United Kingdom</option>
+          <option value="4">Zimbabwe</option>
+          </select>
+				<input type="submit" value="GO"/>
+			</form>
+    </div>
+    <script language="javascript">
+		$(document).ready(function() {
+	    $("#form_wrapper").fdd2div();
+		});
+		</script>
+    
+    <br /><br /><hr size="1" color="#666666" /><br /><br />
+    
+      <strong>Example 2:</strong> Page names in &lt;option&gt;'s value which will be the hyperlinks. OpenStatus:1,GenerateHyperlinks:1
+      <div id="form_wrapper2">
+			<form method="get" action="country_details.php">
+      	<select name="country">
+        	<option value="0">Select Country</option>
+          <option value="argentina.htm">Argentina </option>
+          <option value="sa.htm">South Africa</option>          
+          <option value="uk.htm">United Kingdom</option>
+          <option value="zimbabwe.htm">Zimbabwe</option>
+          </select>
+				<input type="submit" value="GO"/>
+			</form>
+    </div>
+    <script language="javascript">
+		$(document).ready(function() {
+	    $("#form_wrapper2").fdd2div({OpenStatus:1,GenerateHyperlinks:1});
+		});
+		</script>
+    
+    
+  </body>
+</html>

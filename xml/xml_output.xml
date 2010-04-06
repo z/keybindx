@@ -1,0 +1,74 @@
+<?xml version='1.0' standalone='yes'?>
+<keyboard>
+	<row>
+		<key id="key_backtick" bind="Console"></key>
+		<key id="key_1" bind="I need help"></key>
+		<key id="key_2" bind="Attacking"></key>
+		<key id="key_3" bind="Defending"></key>
+		<key id="key_4" bind="I'm on my way"></key>
+		<key id="key_5" bind="Sorry %p"></key>
+		<key id="key_6" bind="Thanks"></key>
+		<key id="key_7" bind=""></key>
+		<key id="key_8" bind=""></key>
+		<key id="key_9" bind=""></key>
+		<key id="key_0" bind=""></key>
+		<key id="key_minus" bind=""></key>
+		<key id="key_plus" bind=""></key>
+		<key id="key_backspace" bind=""></key>
+	</row>
+	<row>
+		<key id="key_tab" bind="Score"></key>
+		<key id="key_q" bind="Rocket"></key>
+		<key id="key_w" bind="Up"></key>
+		<key id="key_e" bind="Laser"></key>
+		<key id="key_r" bind="MG"></key>
+		<key id="key_t" bind="Chat"></key>
+		<key id="key_y" bind="Team Chat"></key>
+		<key id="key_u" bind=""></key>
+		<key id="key_i" bind=""></key>
+		<key id="key_o" bind=""></key>
+		<key id="key_p" bind=""></key>
+		<key id="key_left_bracket" bind=""></key>
+		<key id="key_right_bracket" bind=""></key>
+		<key id="key_backslash" bind=""></key>
+	</row>
+	<row>
+		<key id="key_caps_lock" bind=""></key>
+		<key id="key_a" bind="Left"></key>
+		<key id="key_s" bind="Down"></key>
+		<key id="key_d" bind="Right"></key>
+		<key id="key_f" bind="Nex"></key>
+		<key id="key_g" bind="Drop Weapon"></key>
+		<key id="key_h" bind=""></key>
+		<key id="key_j" bind=""></key>
+		<key id="key_k" bind=""></key>
+		<key id="key_l" bind=""></key>
+		<key id="key_semicolon" bind=""></key>
+		<key id="key_apostrophe" bind=""></key>
+		<key id="key_enter" bind=""></key>
+	</row>
+	<row>
+		<key id="key_left_shift" bind="Crouch"></key>
+		<key id="key_z" bind="Zoom/FOV Adjust"></key>
+		<key id="key_x" bind="FOV Reset"></key>
+		<key id="key_c" bind="Mortar"></key>
+		<key id="key_v" bind="Electro"></key>
+		<key id="key_b" bind="Best Weapon Fix"></key>
+		<key id="key_n" bind=""></key>
+		<key id="key_m" bind=""></key>
+		<key id="key_comma" bind=""></key>
+		<key id="key_period" bind=""></key>
+		<key id="key_forwardslash" bind=""></key>
+		<key id="key_right_shift" bind=""></key>
+	</row>
+	<row>
+		<key id="key_left_ctrl" bind="Nevermind"></key>
+		<key id="key_left_special" bind=""></key>
+		<key id="key_left_alt" bind=""></key>
+		<key id="key_space_bar" bind="Jump"></key>
+		<key id="key_right_alt" bind=""></key>
+		<key id="key_right_special" bind=""></key>
+		<key id="key_popup" bind=""></key>
+		<key id="key_right_ctrl" bind=""></key>
+	</row>
+</keyboard>

@@ -1,0 +1,9 @@
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 2px solid #555;
+	background: #333 url('img/tt_bg.jpg') repeat-x 0 0;
+	color: #999;
+	padding: 5px;
+}
+#tooltip h3, #tooltip div { margin: 0; }

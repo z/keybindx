@@ -1,0 +1,160 @@
+body {
+	width: 120%;
+	height: 120%;
+	padding: 0;
+	margin: 0;
+	text-align:center;
+	font-family:verdana,arial,tahoma,sans serif;
+	color:#ccc;
+	background-color:#555;
+}
+a {
+	color:#aaa;
+	text-decoration:none;
+}
+a:hover {
+	color:#ddd;
+	text-decoration:underline;
+}
+h1 {
+	color:#eee;
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+h3 {
+	padding: 0;
+	margin: 0 0 36px 0;
+}
+#header { width: 120%; text-align:right; }
+#menu { height: 156px; width:800px; text-align:center; margin-left:auto; margin-right: auto; }
+#ajax_loader { margin-top: 12px; }
+
+/* Start Keyboard Configuration */
+#keyboard_container {
+	margin: 24px;
+}
+#main {
+	float:left;
+}
+#function_keys {
+	width: 1368px;
+}
+.fkey_block {
+	margin-right: 51px;
+	border: 1px solid #000;
+	float:left;
+}
+.last_fkey_block {
+	border: 1px solid #000;
+	float:left;
+}
+#center_fkey_block {
+	border: 1px solid #000;border-bottom:2px solid;margin-bottom:10px;
+}
+#keyboard { 
+	float:left;
+	border: 1px solid #000;
+	margin: 12px 52px 24px 0;
+	width: 1365px;
+	height: 462px;
+}
+#center_chunk {
+	float:left;margin-right: 40px;margin-top:0;width:233px;
+}
+
+#arrows {
+	margin-top: 92px;
+	padding-left: 92px;
+}
+
+#numpad {
+	float:left;
+	border: 1px solid #000;
+	width: 369px;
+	margin: 103px 12px 12px 12px;
+}
+#numpad_enter {
+	height: 182px;
+}
+#numpad_insert {
+	width: 182px;
+}
+#numpad_plus {
+	height: 182px;
+}
+.row {
+	min-width: 1px;
+	clear:left;
+	margin: 0;
+	padding: 0;
+	height: 90px;
+}
+.key, #key_tab, #key_caps_lock, #key_left_shift, #key_left_ctrl, #key_space_bar {
+	float:left;
+	height: 90px;
+	border: 1px solid #000;
+	font-size: 13px;
+	font-family:verdana,sans serif;
+	text-align:center;
+	overflow:hidden;
+}
+.row h2 {
+	margin: 24px 0 0 0;
+	padding: 4px;
+	font-size: 13px;
+}
+.key { width: 90px; background-color:#fff; color:#000; }
+#key_backspace { width: 162px; }
+#key_tab, #key_left_ctrl, #key_right_ctrl, #key_backslash { width: 126px; }
+#key_caps_lock { width: 156px; }
+#key_enter { width: 188px; }
+#key_left_shift, #key_right_shift { width: 218px; }
+#key_space_bar { width: 572px; }
+#key_left_special, #key_left_alt, #key_right_special, #key_right_alt { width: 108px; }
+
+.keyboard_layout {
+	float:left;
+	padding: 4px 0 0 4px;
+	font-size: 15px;
+	color:#444;
+	z-index:-100;
+}
+
+.key_title {
+	cursor:pointer;
+	position:relative;
+	z-index: 120;
+	font-size: 13px;
+}
+
+#current_bind {
+	padding: 9px;
+	border: 2px solid #888;
+	background-color:#444;
+	width: 1728px;
+	height: 21px;
+	font-weight:bold;
+	font-size: 16px;
+	text-align:left;
+}
+
+
+#scroll_left {
+	position:fixed;
+	top: 0;
+	left: 0;
+	height: 120%;
+	width: 240px;
+	background-color:#333;
+	z-index: 2400;
+}
+
+#scroll_right {
+	position:fixed;
+	top: 0;
+	right: 0;
+	height: 120%;
+	width: 240px;
+	background-color:#333;
+	z-index: 2400;
+}

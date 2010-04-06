@@ -1,0 +1,9 @@
+This is an initial import of an application I had to abandon but still believe has a lot of potential.  I don't have much time to work on it these days myself, so I'm sharing it in it the current state for friends of the project xonotic (www.xonotic.org) to build upon / combine with other projects.  It uses a markup language I've defined as Keyboard Markup Language, KBML which is an abstraction of various keyboard layouts (currently just one).  This application reads and (will write) to KBML files using a PHP/XHTML/AJAX/CSS application.  I apologize in advance for any stupid hacks I used, confusing/lack of comments, sloppy code or whatever has you in a twist.  What I knew then is not what I know now and you can always help by contributing.
+
+Just click login to login, I removed the database stuff for simplicity.
+
+All code I've written and checked in here is released under the GPL unless otherwise noted, in which case I apologize for my neglegence as it is my intent to license all content in this project under the GPL.
+
+It is my hope that the future of this application will help people communicate information about their keybinds to others visually and socially.
+
+Tyler "-z-" Mulligan

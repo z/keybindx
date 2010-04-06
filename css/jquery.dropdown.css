@@ -1,0 +1,68 @@
+.fdd2div_default{
+	position:relative;
+	color:#0066FF;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;	
+	font-size:12px;
+	text-align:left;
+	width:120px;
+	background:#EBEBEB;
+}
+
+.fdd2div_default_main_link{
+	color:#0066FF;
+	outline:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:5px;
+}
+.fdd2div_default ul li a{
+	color:#0066FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:5px;
+}
+.fdd2div_default ul li a:hover{
+	color:#00CCFF;
+}
+.fdd2div_default ul li a:visited{
+	color:#00CCFF;
+}
+
+.fdd2div_default a.collapsed{
+	background:url('img/collapse.jpg') no-repeat right center;
+	padding-right:16px;
+	color:#0033FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+.fdd2div_default a.expanded{
+	background:url('img/expand.jpg') no-repeat right center;
+	padding-right:16px;
+	color:#0099FF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.fdd2div_default_ul_list{
+	list-style:none;
+	width:100%;
+	padding:0 0 15px 0;
+	margin:0px;
+	background:#F7F7F7;
+	top:15px;
+	z-index:5000;
+}
+
+.fdd2div_default_ul_list li {
+	margin:2px;
+}
+
+.fdd2div_default_ul_list li a{
+	height:5px;
+	width: 100%;
+	display:block;
+}
+
+.fdd2div_default_ul_list li a:hover{
+	color:#0066FF;
+}
